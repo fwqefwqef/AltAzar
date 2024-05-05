@@ -24,7 +24,7 @@ namespace AltAzar
 			List<Skill> hand = BattleSystem.instance.AllyTeam.Skills;
 			for (int i = 0; i < hand.Count; i++)
 			{
-				if (hand[i].ExtendedFind("AltAzar_Ex_0", true) == null)
+				if (hand[i].ExtendedFind_DataName("AltAzar_Ex_0") == null)
 				{
 					skills.Add(hand[i]);
 				}

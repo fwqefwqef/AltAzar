@@ -2,6 +2,7 @@
 using I2.Loc;
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace AltAzar
 {
@@ -16,7 +17,15 @@ namespace AltAzar
             azar_Ex_.MasterChar = b;
             if (b != null)
             {
-                if (Targets[0].ExtendedFind("AltAzar.AltAzar_Ex_0", true) == null)
+
+                // Debugging
+                List<Skill_Extended> li = Targets[0].AllExtendeds;
+                foreach (Skill_Extended s in li)
+                {
+                    Debug.Log(s.Data.Key);
+                }
+
+                if (Targets[0].ExtendedFind_DataName("AltAzar_Ex_0") == null)
                 {
                     Targets[0].ExtendedAdd(azar_Ex_);
                 }
