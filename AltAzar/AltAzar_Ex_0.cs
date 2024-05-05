@@ -7,23 +7,39 @@ namespace AltAzar
 {
 	public class AltAzar_Ex_0 : Skill_Extended
 	{
-		public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
-		{
-			AltAzar_Ex_0.SwordAdd(this.MasterChar, 1);
-		}
-
-		public override void DiscardSingle(bool Click)
-		{
-			AltAzar_Ex_0.SwordAdd(this.MasterChar, 1);
-		}
-
-		public override void FixedUpdate()
+		public static int num = -1;
+		public override void FixedUpdate() 
 		{
 			base.FixedUpdate();
 			if (this.MasterChar.IsDead)
 			{
 				this.SelfDestroy();
 			}
+
+			// keep updating the position of the sword in hand
+			List<Skill> hand = BattleSystem.instance.AllyTeam.Skills;
+			for (int i = 0; i < hand.Count; i++)
+			{
+				if (hand[i] == this.MySkill)
+				{
+					num = i;
+					break;
+				}
+			}
+		}
+
+		public override void SkillUseHand(BattleChar Target)
+		{
+			List<Skill> hand = BattleSystem.instance.AllyTeam.Skills;
+            Debug.Log("Illusion Sword buff location " + num);
+            AltAzar_Ex_0.SwordAdd(this.MasterChar, num);
+		}
+
+		public override void DiscardSingle(bool Click)
+		{
+			List<Skill> hand = BattleSystem.instance.AllyTeam.Skills;
+            Debug.Log("Illusion Sword buff location " + num);
+			AltAzar_Ex_0.SwordAdd(this.MasterChar, num);
 		}
 
 		public static void Add(Skill skill, BattleChar User)
@@ -39,23 +55,29 @@ namespace AltAzar
 
 		public static void SwordAdd(BattleChar bc, int num)
         {
-            for (int i = 0; i < num; i++)
+            Skill skill = Skill.TempSkill(GDEItemKeys.Skill_S_Azar_P_0, bc, bc.MyTeam);
+            skill.NotCount = true;
+            skill.isExcept = true;
+            skill.AutoDelete = 2; // discard after 2 turns
+            skill.AP = 1;
+            skill.MySkill.UseAp = 1;
+
+            Skill sword = skill.CloneSkill(false, null, null, false);
+            Skill_Extended damage = new Skill_Extended();
+            damage.PlusPerStat.Damage = 50;
+            sword.ExtendedAdd(damage);
+
+
+			if (num == -1) // bottom index
             {
-                Skill skill = Skill.TempSkill(GDEItemKeys.Skill_S_Azar_P_0, bc, bc.MyTeam);
-                skill.NotCount = true;
-                skill.isExcept = true;
-                skill.AutoDelete = 2; // discard after 2 turns
-				skill.AP = 1;
-				skill.MySkill.UseAp = 1;
-
-				Skill sword = skill.CloneSkill(false, null, null, false);
-				Skill_Extended damage = new Skill_Extended();
-				damage.PlusPerStat.Damage = 50;
-				sword.ExtendedAdd(damage);
-
 				bc.MyTeam.Add(sword, true);
-            }
-			Debug.Log("Added Illusion Sword to hand");
+			}
+			else
+            {
+				BattleSystem.instance.AllyTeam.Skills.Insert(num, skill); // insert into og skill index
+			}
+
+            Debug.Log("Added Illusion Sword to hand");
 		}
 
         public BattleChar MasterChar;
