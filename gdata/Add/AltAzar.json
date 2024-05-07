@@ -1,0 +1,148 @@
+{
+    "AltAzar": {
+        "_gdeSchema": "Character",
+        "name": "AltAzar",
+        "face": "AltAzarBattleFace.png",
+        "BattleChar": "CharImagePrefebs/HeinBattle",
+        "FaceOriginChar": "CharImagePrefebs/Face/Face_Hein",
+        "CollectionSprite_SkillFace": "AltAzarCollectionSprite_SkillFace.png",
+        "PassiveIcon": "AltAzarPassiveIcon.png",
+        "PassiveClassName": "AltAzar.P_AltAzar",
+        "PassiveName": "Illusion Swords",
+        "PassiveDes": "temp",
+        "PassiveUnlockLV1": false,
+        "_gdeIsList_Gender": 0,
+        "_gdeType_Gender": "Int",
+        "Gender": 1,
+        "MAXHP": {
+            "x": 21,
+            "y": 34
+        },
+        "_gdeType_ATK": "Vector2",
+        "ATK": {
+            "x": 14,
+            "y": 26
+        },
+        "_gdeType_DEF": "Vector2",
+        "DEF": {
+            "x": 0,
+            "y": 0
+        },
+        "_gdeType_CRI": "Vector2",
+        "CRI": {
+            "x": 0,
+            "y": 10
+        },
+        "_gdeType_DODGE": "Vector2",
+        "DODGE": {
+            "x": 0,
+            "y": 10
+        },
+        "_gdeType_HIT": "Vector2",
+        "HIT": {
+            "x": 96,
+            "y": 115
+        },
+        "_gdeType_HIT_DOT": "Vector2",
+        "HIT_DOT": {
+            "x": -10,
+            "y": 30
+        },
+        "_gdeType_REG": "Vector2",
+        "REG": {
+            "x": 7,
+            "y": 12
+        },
+        "_gdeType_RES_CC": "Vector2",
+        "RES_CC": {
+            "x": 5,
+            "y": 45
+        },
+        "_gdeType_RES_DEBUFF": "Vector2",
+        "RES_DEBUFF": {
+            "x": -10,
+            "y": 30
+        },
+        "_gdeType_HIT_CC": "Vector2",
+        "HIT_CC": {
+            "x": 0,
+            "y": 40
+        },
+        "_gdeType_HIT_DEBUFF": "Vector2",
+        "HIT_DEBUFF": {
+            "x": -10,
+            "y": 30
+        },
+        "_gdeType_RES_DOT": "Vector2",
+        "RES_DOT": {
+            "x": -10,
+            "y": 30
+        },
+        "SelectInfo": "Here is select info!!!!!",
+        "Role": "Role_DPS",
+        "FirstSkill": "S_AltAzar_0",
+        "_gdeType_CampSD": "Sprite",
+        "CampSD": [
+            "",
+            "",
+            "",
+            ""
+        ],
+        "Text_Battle_Idle": [
+            ""
+        ],
+        "Text_Battle_ND": [
+            "",
+            "",
+            ""
+        ],
+        "Text_Battle_AllyND": [
+            "",
+            ""
+        ],
+        "Text_Battle_Start": [
+            "",
+            ""
+        ],
+        "Text_Battle_Kill": [
+            "",
+            "",
+            ""
+        ],
+        "Text_Battle_Cri": [
+            "",
+            ""
+        ],
+        "Text_Battle_Healed": [
+            "",
+            ""
+        ],
+        "Text_Field_Idle": [
+            "",
+            "",
+            ""
+        ],
+        "Text_Field_GetItem": [
+            "",
+            ""
+        ],
+        "Text_Field_Potion_P": [
+            "",
+            ""
+        ],
+        "Text_PharosLeader": [
+            "",
+            "",
+            ""
+        ],
+        "StatView_Atk": 3,
+        "StatView_Sup": 1,
+        "StatView_Def": 0,
+        "StatView_Heal": 0,
+        "StatView_Dot": 0,
+        "StatView_CC": 0,
+        "StatView_Debuff": 0,
+        "StatView_Difficult": 2,
+        "CollectionSprite_Cover": "AltAzarCollectionSprite_Cover.png"
+    }
+}

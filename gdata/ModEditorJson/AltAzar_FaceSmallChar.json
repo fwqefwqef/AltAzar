@@ -1,0 +1,23 @@
+{
+    "myKey": "AltAzar",
+    "myField": "FaceSmallChar",
+    "myValues": {
+        "path": "AltAzarFaceSmallChar.png",
+        "pivot": {
+            "x": 0.5213565,
+            "y": 0.502023041
+        },
+        "offsetMin": {
+            "x": -52.4110451,
+            "y": -69.46228
+        },
+        "offsetMax": {
+            "x": 44.2195549,
+            "y": 57.7680321
+        }
+    },
+    "MyChangeType": "FaceSmallChar",
+    "myKeys": [
+        
+    ]
+}

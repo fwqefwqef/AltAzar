@@ -1,0 +1,65 @@
+{
+  "B_AltAzar_5_T": {
+    "Name": "Shining Aura",
+    "_gdeType_ClassName": "String",
+    "ClassName": "AltAzar.B_AltAzar_5_T",
+    "LifeTime": 2,
+    "MaxStack": 5,
+    "Icon": "Image/Buff/Skill_Icon_Pack/1_5icon/1_5 (14)",
+    "Description": "Heal 10% of damage dealt. Remove a stack whenever an attack skill deals damage.",
+    "Tick": "null",
+    "BuffTag": "null",
+    "Caution": false,
+    "_gdeSchema": "Buff"
+  },
+
+  "SE_AltAzar_5_T": {
+    "Buffs": [
+      "B_AltAzar_5_T",
+      "B_AltAzar_5_T",
+      "B_AltAzar_5_T",
+      "B_AltAzar_5_T",
+      "B_AltAzar_5_T"
+    ],
+    "_gdeIsList_BuffPlusTagPer": 1,
+    "_gdeType_BuffPlusTagPer": "Int",
+    "BuffPlusTagPer": [
+        
+    ],
+    "_gdeSchema": "SkillEffect"
+  },
+
+  "S_AltAzar_5": {
+    "_gdeType_UseAp": "Int",
+    "UseAp": 1,
+    "_gdeType_Target": "s_targettype",
+    "_gdeType_Particle": "GameObject",
+    "Target": "self",
+    "Particle": "Particle/Buff",
+    "Effect_Target": "SE_AltAzar_5_T",
+    "Name": "Shining Aura",
+    "SkillExtended": [
+      "AltAzar.S_AltAzar_5"
+    ],
+    "_gdeType_AutoDelete": "Int",
+    "AutoDelete": 0,
+    "_gdeType_NotCount": "Bool",
+    "NotCount": true,
+    "_gdeType_ViewBuff": "Bool",
+    "ViewBuff": true,
+    "User": "AltAzar",
+    "_gdeType_Image_2": "Sprite",
+    "Image_2": "SkillImages/Azar/Azar_11_2",
+    "_gdeType_Image_1": "Sprite",
+    "Image_1": "SkillImages/Azar/Azar_11_1",
+    "_gdeType_Image_0": "Sprite",
+    "Image_0": "SkillImages/Azar/Azar_11_0",
+    "_gdeType_Except": "Bool",
+    "Except": false,
+    "_gdeType_NoBasicSkill": "Bool",
+    "NoBasicSkill": false,
+    "_gdeType_Basic": "Bool",
+    "Basic": false,
+    "_gdeSchema": "Skill"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "CampDial_AltAzar_SilverStein": {
+    "CharA": "AltAzar",
+    "CharB": "SilverStein",
+    "Dialogues": [
+        "[A] ",
+        "[B] "
+    ],
+    "_gdeSchema": "SimpleCampDialogue"
+  },
+  "CampDial_AltAzar_Trisha": {
+    "CharA": "AltAzar",
+    "CharB": "Trisha",
+    "Dialogues": [
+        "[A] ",
+        "[B] "
+    ],
+    "_gdeSchema": "SimpleCampDialogue"
+  },
+  "CampDial_AltAzar_Ilya": {
+    "CharA": "AltAzar",
+    "CharB": "Ilya",
+    "Dialogues": [
+        "[A] "
+    ],
+    "_gdeSchema": "SimpleCampDialogue"
+  },
+  "CampDial_AltAzar_Joey": {
+    "CharA": "AltAzar",
+    "CharB": "Joey",
+    "Dialogues": [
+        "[A] ",
+        "[B] "
+    ],
+    "_gdeSchema": "SimpleCampDialogue"
+  },
+  "CampDial_AltAzar_Narhan": {
+    "CharA": "AltAzar",
+    "CharB": "Control",
+    "Dialogues": [
+        "[B] ",
+        "[A] "
+    ],
+    "_gdeSchema": "SimpleCampDialogue"
+  },
+  "CampDial_AltAzar_Priest": {
+    "CharA": "AltAzar",
+    "CharB": "Priest",
+    "Dialogues": [
+        "[A] ",
+        "[B] "
+    ],
+    "_gdeSchema": "SimpleCampDialogue"
+  },
+  "CampDial_AltAzar_Leryn": {
+    "CharA": "AltAzar",
+    "CharB": "Leryn",
+    "Dialogues": [
+        "[B] ",
+        "[A] "
+    ],
+    "_gdeSchema": "SimpleCampDialogue"
+  },
+  "CampDial_AltAzar_Sizz": {
+    "CharA": "AltAzar",
+    "CharB": "Sizz",
+    "Dialogues": [
+        "[A] "
+    ],
+    "_gdeSchema": "SimpleCampDialogue"
+  },
+  "CampDial_AltAzar_Johan": {
+    "CharA": "AltAzar",
+    "CharB": "Mement",
+    "Dialogues": [
+        "[B] ",
+        "[A] "
+    ],
+    "_gdeSchema": "SimpleCampDialogue"
+  },
+  "CampDial_AltAzar_Huz": {
+    "CharA": "AltAzar",
+    "CharB": "Queen",
+    "Dialogues": [
+        "[B] ",
+        "[A] "
+    ],
+    "_gdeSchema": "SimpleCampDialogue"
+  },
+  "CampDial_AltAzar_Azar": {
+    "CharA": "AltAzar",
+    "CharB": "Azar",
+    "Dialogues": [
+        "[A] ",
+        "[B] "
+    ],
+    "_gdeSchema": "SimpleCampDialogue"
+  },
+  "CampDial_AltAzar_Pheonix": {
+    "CharA": "AltAzar",
+    "CharB": "Pheonix",
+    "Dialogues": [
+        "[A]……",
+        "[B] ",
+        "[A] "
+    ],
+    "_gdeSchema": "SimpleCampDialogue"
+  },
+  "CampDial_AltAzar_Lian": {
+    "CharA": "AltAzar",
+    "CharB": "Lian",
+    "Dialogues": [
+        "[A] ",
+        "[B]  "
+    ],
+    "_gdeSchema": "SimpleCampDialogue"
+  },
+  "CampDial_AltAzar_Red": {
+    "CharA": "AltAzar",
+    "CharB": "TW_Red",
+    "Dialogues": [
+        "[A] ",
+        "[B] "
+    ],
+    "_gdeSchema": "SimpleCampDialogue"
+  },
+  "CampDial_AltAzar_Blue": {
+    "CharA": "AltAzar",
+    "CharB": "TW_Blue",
+    "Dialogues": [
+        "[A] "
+    ],
+    "_gdeSchema": "SimpleCampDialogue"
+  },
+  "CampDial_AltAzar_Hein": {
+    "CharA": "AltAzar",
+    "CharB": "Hein",
+    "Dialogues": [
+        "[A] ",
+        "[B] "
+    ],
+    "_gdeSchema": "SimpleCampDialogue"
+  },
+  "CampDial_AltAzar_Iron": {
+    "CharA": "AltAzar",
+    "CharB": "Prime",
+    "Dialogues": [
+        "[B] ",
+        "[A] "
+    ],
+    "_gdeSchema": "SimpleCampDialogue"
+  },
+  "CampDial_AltAzar_Miss": {
+    "CharA": "AltAzar",
+    "CharB": "MissChain",
+    "Dialogues": [
+        "[B] "
+    ],
+    "_gdeSchema": "SimpleCampDialogue"
+  },
+  "CampDial_AltAzar_Charon": {
+    "CharA": "AltAzar",
+    "CharB": "ShadowPriest",
+    "Dialogues": [
+        "[B] ",
+        "[A] "
+    ],
+    "_gdeSchema": "SimpleCampDialogue"
+  }
+}
