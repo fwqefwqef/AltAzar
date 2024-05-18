@@ -1,0 +1,31 @@
+{
+  "S_AltAzar_2": {
+    "UseAp": 1,
+    "Target": "Misc",
+    "Particle": "Particle/impact",
+    "Effect_Target": "SE_Null",
+    "Name": "Illusion's Sword Calling",
+    "Description": "Add an Illusion Sword to the top and bottom of your hand.",
+    "SkillExtended": [
+      "AltAzar.S_AltAzar_2"
+    ],
+    "AutoDelete": 0,
+    "NotCount": true,
+    "HealSkill": false,
+    "Disposable": false,
+    "User": "AltAzar",
+    "ViewBuff": true,
+    "IgnoreTaunt": false,
+    "Image_2": "SkillImages/Azar/Azar_8_2",
+    "Image_1": "SkillImages/Azar/Azar_8_1",
+    "Image_0": "SkillImages/Azar/Azar_8_0",
+    "Except": false,
+    "NoBasicSkill": false,
+    "Basic": false,
+    "Counting": 0,
+    "Track": false,
+    "Rare": false,
+    "Fatal": false,
+    "_gdeSchema": "Skill"
+  }
+}
