@@ -74,6 +74,7 @@ namespace AltAzar
 			}
 			else
             {
+				//bc.MyTeam.Add(sword, true);
 				BattleSystem.instance.AllyTeam.Skills.Insert(num, skill); // insert into og skill index
 			}
 

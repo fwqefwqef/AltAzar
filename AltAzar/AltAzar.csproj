@@ -57,7 +57,10 @@
   <ItemGroup>
     <Compile Include="B_AltAzar_5_T.cs" />
     <Compile Include="AltAzar_Ex_0.cs" />
+    <Compile Include="S_AltAzar_0.cs" />
     <Compile Include="S_AltAzar_1.cs" />
+    <Compile Include="S_AltAzar_2.cs" />
+    <Compile Include="S_AltAzar_3.cs" />
     <Compile Include="S_AltAzar_5.cs" />
     <Compile Include="P_AltAzar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
