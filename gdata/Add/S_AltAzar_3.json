@@ -1,0 +1,37 @@
+{
+  "S_AltAzar_3": {
+    "UseAp": 2,
+    "Target": "enemy",
+    "Particle": "Particle/Azar/Azar_new_1",
+    "Effect_Target": "SE_AltAzar_3",
+    "Name": "Illusion Flash",
+    "Description": "Consume all Illusion Swords below this skill and additional attack.",
+    "SkillExtended": [
+      "AltAzar.S_AltAzar_3"
+    ],
+    "AutoDelete": 0,
+    "NotCount": true,
+    "HealSkill": false,
+    "Disposable": false,
+    "User": "AltAzar",
+    "ViewBuff": true,
+    "IgnoreTaunt": false,
+    "Image_2": "",
+    "Image_1": "",
+    "Image_0": "",
+    "Except": false,
+    "NoBasicSkill": false,
+    "Basic": false,
+    "Counting": 0,
+    "Track": false,
+    "Rare": false,
+    "Fatal": false,
+    "_gdeSchema": "Skill"
+  },
+  "SE_AltAzar_3": {
+    "DMG_Per": 120,
+    "Buffs": [],
+    "BuffPlusTagPer": [],
+    "_gdeSchema": "SkillEffect"
+  }
+}
