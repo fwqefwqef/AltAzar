@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using GameDataEditor;
 using UnityEngine;
 
@@ -31,15 +34,15 @@ namespace AltAzar
 		public override void SkillUseHand(BattleChar Target)
 		{
 			List<Skill> hand = BattleSystem.instance.AllyTeam.Skills;
-            Debug.Log("Illusion Sword buff location " + num);
-            AltAzar_Ex_0.SwordAdd(this.MasterChar, num);
+            //Debug.Log("Illusion Sword buff location " + num);
+            AltAzar_Ex_0.SwordAdd(this.MasterChar, -1);
 		}
 
 		public override void DiscardSingle(bool Click)
 		{
 			List<Skill> hand = BattleSystem.instance.AllyTeam.Skills;
-            Debug.Log("Illusion Sword buff location " + num);
-			AltAzar_Ex_0.SwordAdd(this.MasterChar, num);
+            //Debug.Log("Illusion Sword buff location " + num);
+			AltAzar_Ex_0.SwordAdd(this.MasterChar, -1);
 		}
 
 		public static void Add(Skill skill, BattleChar User)
@@ -68,19 +71,25 @@ namespace AltAzar
             sword.ExtendedAdd(damage);
 
 
-			if (num == -1) // bottom index
+            if (num == -1) // bottom index
             {
-				bc.MyTeam.Add(sword, true);
-			}
-			else
+                bc.MyTeam.Add(sword, true);
+            }
+            else
             {
-				//bc.MyTeam.Add(sword, true);
-				BattleSystem.instance.AllyTeam.Skills.Insert(num, skill); // insert into og skill index
+                //bc.MyTeam.Add(sword, true);
+                BattleSystem.instance.AllyTeam.Skills.Insert(num, skill); // insert into og skill index
+				BattleSystem.instance.ActWindow.Window.SkillInstantiate(bc.MyTeam, false);
+				//BattleSystem.DelayInput(Wait());
 			}
-
-            Debug.Log("Added Illusion Sword to hand");
+			Debug.Log("Added Illusion Sword to hand");
+		}
+		public static IEnumerator Wait()
+		{
+			yield return new WaitForSeconds(0.2f);
+			yield break;
 		}
 
-        public BattleChar MasterChar;
+		public BattleChar MasterChar;
 	}
 }

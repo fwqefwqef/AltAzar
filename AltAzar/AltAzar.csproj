@@ -55,20 +55,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="B_AltAzar_5_T.cs" />
+    <Compile Include="B_AltAzar_ShiningAura.cs" />
     <Compile Include="AltAzar_Ex_0.cs" />
-    <Compile Include="S_AltAzar_0.cs" />
-    <Compile Include="S_AltAzar_1.cs" />
-    <Compile Include="S_AltAzar_2.cs" />
-    <Compile Include="S_AltAzar_3.cs" />
-    <Compile Include="S_AltAzar_5.cs" />
+    <Compile Include="S_AltAzar_FirstScroll.cs" />
+    <Compile Include="S_AltAzar_AscendingSlice.cs" />
+    <Compile Include="S_AltAzar_Crescent.cs" />
+    <Compile Include="S_AltAzar_IllusionCall.cs" />
+    <Compile Include="S_AltAzar_IllusionFlash.cs" />
+    <Compile Include="S_AltAzar_ShiningAura.cs" />
     <Compile Include="P_AltAzar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="S_AltAzar_LucyD.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy /y "$(TargetPath)" "C:\Users\sjkim\Desktop\me\Chrono Ark\chrono ark modding\Workshop\SteamWorkshopUploader_2\WorkshopContent\AltAzar\Assemblies"
-copy /y "$(TargetPath)" "C:\Steam\steamapps\workshop\content\1188930\3239734993\Assemblies"</PostBuildEvent>
+    <PostBuildEvent>copy /y "$(TargetPath)" "C:\Steam\steamapps\common\Chrono Ark\Mod\AlternativeAzar\Assemblies"</PostBuildEvent>
   </PropertyGroup>
 </Project>

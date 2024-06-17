@@ -29,7 +29,8 @@ namespace AltAzar
 					skills.Add(hand[i]);
 				}
 			}
-			skills.Random().ExtendedAdd(azar_Ex_);
+			skills[skills.Count-1].ExtendedAdd(azar_Ex_);
+			//skills[0].ExtendedAdd(azar_Ex_);
 		}
 
 		//public void Turn()
