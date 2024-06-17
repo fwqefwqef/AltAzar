@@ -1,0 +1,19 @@
+{
+    "SE_S_S_AltAzar_ShiningAura": {
+        "_gdeSchema": "SkillEffect",
+        "Buffs": [
+            "B_AltAzar_5",
+            "B_AltAzar_5",
+            "B_AltAzar_5",
+            "B_AltAzar_5",
+            "B_AltAzar_5"
+        ],
+        "BuffPlusTagPer": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    }
+}

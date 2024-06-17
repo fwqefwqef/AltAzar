@@ -1,0 +1,8 @@
+{
+    "SE_T_S_AltAzar_FirstScroll": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 80,
+        "CRI": 100
+    }
+}

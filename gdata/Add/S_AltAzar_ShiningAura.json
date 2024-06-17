@@ -1,0 +1,34 @@
+{
+    "S_AltAzar_ShiningAura": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "IgnoreTaunt": false,
+        "Name": "Shining Aura",
+        "Description": "",
+        "UseAp": 1,
+        "User": "AltAzar",
+        "NotCount": true,
+        "Effect_Self": "SE_S_S_AltAzar_ShiningAura",
+        "SkillExtended": [
+            "AltAzar.S_AltAzar_ShiningAura"
+        ],
+        "Image_0": "S_AltAzar_ShiningAura\\S_AltAzar_ShiningAura_Image_0.png",
+        "Image_1": "S_AltAzar_ShiningAura\\S_AltAzar_ShiningAura_Image_1.png",
+        "Image_2": "S_AltAzar_ShiningAura\\S_AltAzar_ShiningAura_Image_2.png",
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

@@ -2,18 +2,18 @@
     "myKey": "AltAzar",
     "myField": "BattleChar",
     "myValues": {
-        "path": "AltAzarBattleChar.png",
-        "offsetMax": {
-            "x": 807.065063,
-            "y": 387.7622
+        "path": "AltAzar\\AltAzarBattleChar.png",
+        "pivot": {
+            "x": 0.498666167,
+            "y": 0.8325556
         },
         "offsetMin": {
-            "x": -886.356567,
-            "y": -1305.65942
+            "x": -490.196472,
+            "y": -1267.85242
         },
-        "pivot": {
-            "x": 0.523411632,
-            "y": 0.7710185
+        "offsetMax": {
+            "x": 492.818848,
+            "y": 254.99173
         }
     },
     "MyChangeType": "BattleChar",

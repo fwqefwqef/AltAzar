@@ -1,0 +1,34 @@
+{
+    "S_AltAzar_IllusionCall": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "IgnoreTaunt": false,
+        "Name": "Illusion's Sword Calling",
+        "Description": "Add 2 Illusion Swords to the top or bottom of hand.",
+        "UseAp": 1,
+        "User": "AltAzar",
+        "NotCount": true,
+        "AutoDelete": 2,
+        "Image_0": "S_AltAzar_IllusionCall\\S_AltAzar_IllusionCall_Image_0.png",
+        "Image_1": "S_AltAzar_IllusionCall\\S_AltAzar_IllusionCall_Image_1.png",
+        "Image_2": "S_AltAzar_IllusionCall\\S_AltAzar_IllusionCall_Image_2.png",
+        "SkillExtended": [
+            "AltAzar.S_AltAzar_IllusionCall"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

@@ -2,18 +2,18 @@
     "myKey": "AltAzar",
     "myField": "FaceOriginChar",
     "myValues": {
-        "path": "AltAzarFaceOriginChar.png",
-        "pivot": {
-            "x": 0.5077339,
-            "y": 0.815994143
+        "path": "AltAzar\\AltAzarFaceOriginChar.png",
+        "offsetMax": {
+            "x": 578.608154,
+            "y": 189.747849
         },
         "offsetMin": {
-            "x": -947.1883,
-            "y": -1525.37854
+            "x": -502.7087,
+            "y": -1485.38074
         },
-        "offsetMax": {
-            "x": 915.5755,
-            "y": 337.385376
+        "pivot": {
+            "x": 0.463609427,
+            "y": 0.8835182
         }
     },
     "MyChangeType": "FaceOriginChar",

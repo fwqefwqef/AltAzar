@@ -1,0 +1,31 @@
+{
+    "BattleTestPreset2": {
+        "_gdeSchema": "Preset",
+        "Party": [
+            "AltAzar"
+        ],
+        "PartyBasicSkill": [
+            "S_AltAzar_IllusionCall"
+        ],
+        "PartySkills": [
+            [
+                "S_AltAzar_AscendingSlice",
+                "S_AltAzar_Crescent",
+                "S_AltAzar_FirstScroll",
+                "S_AltAzar_ShiningAura",
+                "S_AltAzar_IllusionFlash"
+            ]
+        ],
+        "PartyEquip": [
+            [
+                
+            ]
+        ],
+        "LucySkill": [
+            "S_AltAzar_LucyD",
+            "S_AltAzar_LucyD"
+        ],
+        "AP": 8,
+        "Level": 6
+    }
+}

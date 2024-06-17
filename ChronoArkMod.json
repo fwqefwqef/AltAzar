@@ -1,11 +1,11 @@
 {
-    "id":"AltAzar",
-    "Title":"Alternative Azar",
-    "DefaultAssetBundlePath":"",
+    "id": "AltAzar",
+    "Title": "Alternative Azar",
+    "DefaultAssetBundlePath": "",
     "Author": "windypanda1",
-    "Cover": "icon.png",
-    "Description": "asdfasdf",
-    "Visibility": "Unlisted",
+    "Cover": "AltAzarCover.png",
+    "Description": "Alternative Azar",
+    "Visibility": "Public",
     "TagList": [
         "Characters"
     ],

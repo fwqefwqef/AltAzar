@@ -1,0 +1,15 @@
+{
+    "S_AltAzar_Crescent_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar/Azar_new_2",
+        "Target": "Misc",
+        "IgnoreTaunt": false,
+        "Track": false,
+        "Name": "Crescent Slash",
+        "Effect_Target": "SE_T_S_AltAzar_Crescent_0",
+        "SkillExtended": [
+            "AltAzar.S_AltAzar_Crescent"
+        ]
+    }
+}

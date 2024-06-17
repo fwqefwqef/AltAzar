@@ -1,0 +1,34 @@
+{
+    "S_AltAzar_FirstScroll": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar/Azar_S_0",
+        "Rare": false,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "Illusion Sword: First Scroll",
+        "User": "AltAzar",
+        "Description": "This skill gains Swiftness and 100% Crit when used first after drawing it. \nCreate 1 Illusion Sword in the bottom of your hand.",
+        "Effect_Target": "SE_T_S_AltAzar_FirstScroll",
+        "Image_0": "S_AltAzar_FirstScroll\\S_AltAzar_FirstScroll_Image_0.png",
+        "Image_1": "S_AltAzar_FirstScroll\\S_AltAzar_FirstScroll_Image_1.png",
+        "Image_2": "S_AltAzar_FirstScroll\\S_AltAzar_FirstScroll_Image_2.png",
+        "SkillExtended": [
+            "AltAzar.S_AltAzar_FirstScroll"
+        ],
+        "UseAp": 1
+    }
+}

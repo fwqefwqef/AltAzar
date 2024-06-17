@@ -1,0 +1,20 @@
+{
+    "S_AltAzar_IllusionFlash": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar/Azar_new_1",
+        "Target": "enemy",
+        "NotCount": false,
+        "Name": "Illusion Flash",
+        "Description": "Consume all Illusion Swords and additional attack per sword consumed.",
+        "UseAp": 3,
+        "User": "AltAzar",
+        "Effect_Target": "SE_T_S_AltAzar_IllusionFlash",
+        "Image_0": "S_AltAzar_IllusionFlash\\S_AltAzar_IllusionFlash_Image_0.png",
+        "Image_1": "S_AltAzar_IllusionFlash\\S_AltAzar_IllusionFlash_Image_1.png",
+        "Image_2": "S_AltAzar_IllusionFlash\\S_AltAzar_IllusionFlash_Image_2.png",
+        "SkillExtended": [
+            "AltAzar.S_AltAzar_IllusionFlash"
+        ]
+    }
+}

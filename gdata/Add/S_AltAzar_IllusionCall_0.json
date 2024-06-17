@@ -1,0 +1,26 @@
+{
+    "S_AltAzar_IllusionCall_0": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "NotCount": false,
+        "IgnoreTaunt": false,
+        "Name": "Top of hand",
+        "Description": "Create 2 Illusion Swords at the top of hand.",
+        "Image_0": "S_AltAzar_IllusionCall_0\\S_AltAzar_IllusionCall_0_Image_0.png",
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

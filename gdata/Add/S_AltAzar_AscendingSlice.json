@@ -1,0 +1,34 @@
+{
+    "S_AltAzar_AscendingSlice": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar/Azar_1_NewAni",
+        "Target": "enemy",
+        "NotCount": false,
+        "Name": "Ascending Slice",
+        "Description": "Auto-cast Illusion Swords below this skill.\nReturn consumed Illusion Swords to the top of hand.",
+        "UseAp": 2,
+        "User": "AltAzar",
+        "IgnoreTaunt": true,
+        "Effect_Target": "SE_T_S_AltAzar_AscendingSlice",
+        "Image_0": "S_AltAzar_AscendingSlice\\S_AltAzar_AscendingSlice_Image_0.png",
+        "SkillExtended": [
+            "AltAzar.S_AltAzar_AscendingSlice"
+        ],
+        "Rare": false,
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Image_1": "S_AltAzar_AscendingSlice\\S_AltAzar_AscendingSlice_Image_1.png",
+        "Image_2": "S_AltAzar_AscendingSlice\\S_AltAzar_AscendingSlice_Image_2.png"
+    }
+}

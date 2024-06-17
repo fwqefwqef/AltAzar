@@ -1,0 +1,7 @@
+{
+    "SE_T_S_AltAzar_Crescent": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 130
+    }
+}

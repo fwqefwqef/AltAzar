@@ -1,0 +1,11 @@
+{
+    "S_AltAzar_IllusionCall_1": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Target": "Misc",
+        "Description": "Create 2 Illusion Swords at the bottom of hand.",
+        "Image_0": "S_AltAzar_IllusionCall_1\\S_AltAzar_IllusionCall_1_Image_0.png",
+        "Name": "Bottom of hand"
+    }
+}

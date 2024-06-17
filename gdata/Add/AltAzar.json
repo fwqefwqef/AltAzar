@@ -2,10 +2,10 @@
     "AltAzar": {
         "_gdeSchema": "Character",
         "name": "AltAzar",
-        "face": "AltAzarBattleFace.png",
+        "face": "AltAzar\\AltAzarBattleFace.png",
         "BattleChar": "CharImagePrefebs/HeinBattle",
         "FaceOriginChar": "CharImagePrefebs/Face/Face_Hein",
-        "CollectionSprite_SkillFace": "AltAzarCollectionSprite_SkillFace.png",
+        "CollectionSprite_SkillFace": "AltAzar\\AltAzarCollectionSprite_SkillFace.png",
         "PassiveIcon": "AltAzarPassiveIcon.png",
         "PassiveClassName": "AltAzar.P_AltAzar",
         "PassiveName": "Illusion Swords",
@@ -78,9 +78,9 @@
             "x": -10,
             "y": 30
         },
-        "SelectInfo": "Here is select info!!!!!",
+        "SelectInfo": "Select Info",
         "Role": "Role_DPS",
-        "FirstSkill": "S_AltAzar_0",
+        "FirstSkill": "S_AltAzar_FirstScroll",
         "_gdeType_CampSD": "Sprite",
         "CampSD": [
             "",
@@ -143,6 +143,6 @@
         "StatView_CC": 0,
         "StatView_Debuff": 0,
         "StatView_Difficult": 2,
-        "CollectionSprite_Cover": "AltAzarCollectionSprite_Cover.png"
+        "CollectionSprite_Cover": "AltAzar\\AltAzarCollectionSprite_Cover.png"
     }
 }

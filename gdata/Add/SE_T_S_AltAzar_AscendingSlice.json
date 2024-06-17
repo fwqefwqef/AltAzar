@@ -1,0 +1,7 @@
+{
+    "SE_T_S_AltAzar_AscendingSlice": {
+        "_gdeSchema": "SkillEffect",
+        "HIT": 100,
+        "DMG_Per": 135
+    }
+}

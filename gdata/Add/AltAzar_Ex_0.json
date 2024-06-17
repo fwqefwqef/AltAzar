@@ -3,7 +3,7 @@
         "_gdeType_Image": "Sprite",
         "Image": "",
         "_gdeType_Des": "String",
-        "Des": "\ub0b4\uac70\ub098 \ubc84\ub9ac\uba74 \uc190\uc5d0 \ud658\uc601\uac80 \uc2a4\ud0ac\uc744 \uac00\uc838\uc635\ub2c8\ub2e4.",
+        "Des": "내거나 버리면 손에 환영검 스킬을 가져옵니다.",
         "_gdeType_ClassName": "String",
         "ClassName": "AltAzar.AltAzar_Ex_0",
         "_gdeType_Particle": "GameObject",
@@ -13,7 +13,7 @@
         "_gdeType_IsIcon": "Sprite",
         "IsIcon": "Image/Buff/Skill_Icon_Pack/1_5icon/1_5 (1)",
         "_gdeType_Name": "String",
-        "Name": "\ud658\uc601\uac80",
+        "Name": "환영검",
         "_gdeType_Debuff": "Bool",
         "Debuff": false,
         "_gdeSchema": "SkillExtended",
@@ -29,5 +29,5 @@
         "NeedCharacter": "",
         "_gdeType_NeedCharacter": "String",
         "_gdeIsList_NeedCharacter": 0
-    },
+    }
 }
