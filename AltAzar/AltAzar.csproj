@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AltAzar_Fantasy_Ex.cs" />
+    <Compile Include="AltAzar_Rushdown_Ex.cs" />
     <Compile Include="B_AltAzar_DancingSword.cs" />
     <Compile Include="B_AltAzar_Fantasy.cs" />
     <Compile Include="B_AltAzar_ShiningAura.cs" />
@@ -66,10 +67,12 @@
     <Compile Include="S_AltAzar_Crescent.cs" />
     <Compile Include="S_AltAzar_IllusionCall.cs" />
     <Compile Include="S_AltAzar_IllusionFlash.cs" />
+    <Compile Include="S_AltAzar_Rushdown.cs" />
     <Compile Include="S_AltAzar_ShiningAura.cs" />
     <Compile Include="P_AltAzar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="S_AltAzar_LucyD.cs" />
+    <Compile Include="S_AltAzar_StormingBlade.cs" />
     <Compile Include="S_AltAzar_SwordInfinity.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
