@@ -17,7 +17,9 @@
                 "S_AltAzar_BladeStarfall",
                 "S_AltAzar_Fantasy",
                 "S_AltAzar_DancingSword",
-                "S_AltAzar_SwordInfinity"
+                "S_AltAzar_SwordInfinity",
+                "S_AltAzar_StormingBlade",
+                "S_AltAzar_Rushdown"
             ]
         ],
         "PartyEquip": [

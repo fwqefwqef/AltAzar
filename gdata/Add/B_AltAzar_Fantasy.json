@@ -8,7 +8,7 @@
         "BuffTag": "null",
         "UseSkillDebuff": false,
         "Caution": false,
-        "Description": "If any party member plays a 1-cost skill, restore 1 mana.",
+        "Description": "Upon playing a 1-cost skill, restore 1 mana.",
         "Name": "Fantasy",
         "MaxStack": 1,
         "LifeTime": 1,

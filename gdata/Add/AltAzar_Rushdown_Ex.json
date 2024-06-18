@@ -1,0 +1,11 @@
+{
+    "AltAzar_Rushdown_Ex": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "Rushdown",
+        "ClassName": "AltAzar.AltAzar_Rushdown_Ex",
+        "Des": "Upon defeating an enemy, remove overload and create Illusion Sword: Rushdown in hand.",
+        "IsIcon": "AltAzar_Rushdown_Ex\\AltAzar_Rushdown_Ex_Icon.png"
+    }
+}

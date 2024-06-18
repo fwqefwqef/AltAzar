@@ -1,0 +1,35 @@
+{
+    "S_AltAzar_StormingBlade": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar/Azar_5",
+        "Rare": false,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": true,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "Storming Blade",
+        "Description": "Cost reduced whenever an Illusion Sword or a 1-cost skill is played from hand.",
+        "User": "AltAzar",
+        "UseAp": 4,
+        "Image_0": "S_AltAzar_StormingBlade\\S_AltAzar_StormingBlade_Image_0.png",
+        "Image_1": "S_AltAzar_StormingBlade\\S_AltAzar_StormingBlade_Image_1.png",
+        "Image_2": "S_AltAzar_StormingBlade\\S_AltAzar_StormingBlade_Image_2.png",
+        "Counting": 1,
+        "Effect_Target": "SE_T_S_AltAzar_StormingBlade",
+        "SkillExtended": [
+            "AltAzar.S_AltAzar_StormingBlade"
+        ]
+    }
+}

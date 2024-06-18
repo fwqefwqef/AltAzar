@@ -3,7 +3,7 @@
         "_gdeSchema": "Skill",
         "Category": "null",
         "Particle": "Particle/Buff",
-        "Target": "self",
+        "Target": "all_ally",
         "Description": "",
         "Name": "Fantasy",
         "User": "AltAzar",
