@@ -2,6 +2,6 @@
     "SE_T_S_AltAzar_IllusionFlash": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 180
+        "DMG_Per": 150
     }
 }

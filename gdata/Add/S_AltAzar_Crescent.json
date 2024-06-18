@@ -5,7 +5,7 @@
         "Particle": "Particle/Azar/Azar_new_2",
         "Target": "enemy",
         "Name": "Crescent Slash",
-        "Description": "Recast for each Illusion Sword above this skill (halved damage)\n\nMove Illusion Swords above this skill to the bottom of hand.",
+        "Description": "Recast for each Illusion Sword above this skill (halved damage)",
         "UseAp": 2,
         "User": "AltAzar",
         "Track": true,

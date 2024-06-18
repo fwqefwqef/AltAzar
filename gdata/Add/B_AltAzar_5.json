@@ -9,8 +9,9 @@
         "UseSkillDebuff": false,
         "Caution": false,
         "Name": "Shining Aura",
-        "Description": "Heal 10% of damage dealt. Remove a stack whenever an attack skill deals damage.",
-        "MaxStack": 5,
-        "Icon": "B_AltAzar_5\\B_AltAzar_5_Icon.png"
+        "Description": "",
+        "MaxStack": 1,
+        "Icon": "B_AltAzar_5\\B_AltAzar_5_Icon.png",
+        "LifeTime": 2
     }
 }
