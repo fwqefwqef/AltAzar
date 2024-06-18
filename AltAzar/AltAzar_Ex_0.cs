@@ -78,8 +78,7 @@ namespace AltAzar
             else
             {
                 //bc.MyTeam.Add(sword, true);
-                BattleSystem.instance.AllyTeam.Skills.Insert(num, skill); // insert into og skill index
-				BattleSystem.instance.ActWindow.Window.SkillInstantiate(bc.MyTeam, false);
+                bc.MyTeam.Add(skill, true, num);
 				//BattleSystem.DelayInput(Wait());
 			}
 			Debug.Log("Added Illusion Sword to hand");

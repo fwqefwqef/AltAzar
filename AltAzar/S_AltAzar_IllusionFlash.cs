@@ -54,6 +54,9 @@ namespace AltAzar
 		{
 			base.Init();
 			this.illusionSkill.Init(new GDESkillData(GDEItemKeys.Skill_S_Azar_3_Plus), this.BChar, this.BChar.MyTeam);
+			Skill_Extended extend = new Skill_Extended();
+			extend.PlusPerStat.Damage = 60;
+			this.illusionSkill.ExtendedAdd(extend);
 			this.illusionSkill.PlusHit = true;
 		}
 
@@ -69,7 +72,7 @@ namespace AltAzar
 					Skill skill = Skill.TempSkill(GDEItemKeys.Skill_S_Azar_3_Plus, this.BChar, this.BChar.MyTeam);
 					skill.PlusHit = true;
 					Skill_Extended extend = new Skill_Extended();
-					extend.PlusPerStat.Damage = 50;
+					extend.PlusPerStat.Damage = 60;
 					skill.ExtendedAdd(extend);
 
 					if (Target.IsDead && BattleSystem.instance.EnemyTeam.AliveChars.Count != 0)
