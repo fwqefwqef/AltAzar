@@ -33,16 +33,16 @@ namespace AltAzar
 				if (hand[i].MySkill.KeyID == GDEItemKeys.Skill_S_Azar_P_0)
 				{
 					BattleSystem.DelayInput(this.Attack(skill, Targets[0]));
-					hand[i].Delete(false);
-					cast++;
-					i--;
+					//hand[i].Delete(false);
+					//cast++;
+					//i--;
 				}
 			}
 
-			for (int i = 0; i < cast; i++) // return swords to bottom of hand...
-			{
-				AltAzar_Ex_0.SwordAdd(this.BChar, -1);
-			}
+			//for (int i = 0; i < cast; i++) // return swords to bottom of hand...
+			//{
+			//	AltAzar_Ex_0.SwordAdd(this.BChar, -1);
+			//}
 		}
 
 		public IEnumerator Attack(Skill skill, BattleChar target)
