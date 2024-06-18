@@ -1,0 +1,17 @@
+{
+    "B_AltAzar_Fantasy": {
+        "_gdeSchema": "Buff",
+        "Hide": false,
+        "IsFieldBuff": false,
+        "Cantdisable": false,
+        "ClassName": "AltAzar.B_AltAzar_Fantasy",
+        "BuffTag": "null",
+        "UseSkillDebuff": false,
+        "Caution": false,
+        "Description": "If any party member plays a 1-cost skill, restore 1 mana.",
+        "Name": "Fantasy",
+        "MaxStack": 1,
+        "LifeTime": 1,
+        "Icon": "B_AltAzar_Fantasy\\B_AltAzar_Fantasy_Icon.png"
+    }
+}

@@ -1,7 +1,7 @@
 {
-    "SE_T_S_AltAzar_IllusionFlash": {
+    "SE_T_S_AltAzar_BladeStarfall": {
         "_gdeSchema": "SkillEffect",
         "HIT": 100,
-        "DMG_Per": 180
+        "DMG_Per": 80
     }
 }

@@ -1,0 +1,12 @@
+{
+    "B_AltAzar_DancingSword": {
+        "_gdeSchema": "Buff",
+        "ClassName": "AltAzar.B_AltAzar_DancingSword",
+        "BuffTag": "null",
+        "Description": "Whenever any party member casts a skill on an enemy, cast Illusion Sword on the same target.",
+        "Name": "Dancing Sword",
+        "MaxStack": 1,
+        "LifeTime": 2,
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_5icon/1_5 (17)"
+    }
+}

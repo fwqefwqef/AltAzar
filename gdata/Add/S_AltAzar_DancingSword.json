@@ -1,0 +1,19 @@
+{
+    "S_AltAzar_DancingSword": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "NotCount": false,
+        "Disposable": false,
+        "UseAp": 1,
+        "User": "AltAzar",
+        "Name": "Dancing Sword",
+        "Description": "",
+        "Effect_Target": "SE_T_S_AltAzar_DancingSword",
+        "Image_0": "S_AltAzar_DancingSword\\S_AltAzar_DancingSword_Image_0.png",
+        "Image_1": "S_AltAzar_DancingSword\\S_AltAzar_DancingSword_Image_1.png",
+        "Image_2": "S_AltAzar_DancingSword\\S_AltAzar_DancingSword_Image_2.png",
+        "Rare": true
+    }
+}

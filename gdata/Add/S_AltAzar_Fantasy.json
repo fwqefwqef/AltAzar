@@ -1,0 +1,31 @@
+{
+    "S_AltAzar_Fantasy": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Buff",
+        "Target": "self",
+        "Description": "",
+        "Name": "Fantasy",
+        "User": "AltAzar",
+        "UseAp": 1,
+        "NotCount": true,
+        "Disposable": true,
+        "Rare": true,
+        "Image_0": "S_AltAzar_Fantasy\\S_AltAzar_Fantasy_Image_0.png",
+        "Image_1": "S_AltAzar_Fantasy\\S_AltAzar_Fantasy_Image_1.png",
+        "Image_2": "S_AltAzar_Fantasy\\S_AltAzar_Fantasy_Image_2.png",
+        "Effect_Target": "SE_T_S_AltAzar_Fantasy",
+        "NODOD": false,
+        "NotChuck": false,
+        "HealSkill": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false
+    }
+}

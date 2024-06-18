@@ -1,0 +1,33 @@
+{
+    "S_AltAzar_SwordInfinity": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/impact",
+        "Rare": false,
+        "Target": "Misc",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": true,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": false,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "Sword of Infinity",
+        "Description": "Apply Illusion Sword buff to all skills in hand.",
+        "UseAp": 2,
+        "SkillExtended": [
+            "AltAzar.S_AltAzar_SwordInfinity"
+        ],
+        "Image_0": "S_AltAzar_SwordInfinity\\S_AltAzar_SwordInfinity_Image_0.png",
+        "Image_1": "S_AltAzar_SwordInfinity\\S_AltAzar_SwordInfinity_Image_1.png",
+        "Image_2": "S_AltAzar_SwordInfinity\\S_AltAzar_SwordInfinity_Image_2.png",
+        "User": "AltAzar"
+    }
+}

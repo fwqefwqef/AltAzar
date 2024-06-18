@@ -19,7 +19,7 @@
         "Image_2": "S_AltAzar_Crescent\\S_AltAzar_Crescent_Image_2.png",
         "Rare": false,
         "NODOD": false,
-        "NotCount": false,
+        "NotCount": true,
         "NotChuck": false,
         "HealSkill": false,
         "Disposable": false,

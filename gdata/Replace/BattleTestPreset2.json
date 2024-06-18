@@ -13,7 +13,11 @@
                 "S_AltAzar_Crescent",
                 "S_AltAzar_FirstScroll",
                 "S_AltAzar_ShiningAura",
-                "S_AltAzar_IllusionFlash"
+                "S_AltAzar_IllusionFlash",
+                "S_AltAzar_BladeStarfall",
+                "S_AltAzar_Fantasy",
+                "S_AltAzar_DancingSword",
+                "S_AltAzar_SwordInfinity"
             ]
         ],
         "PartyEquip": [

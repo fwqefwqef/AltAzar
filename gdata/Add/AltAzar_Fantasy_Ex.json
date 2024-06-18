@@ -1,0 +1,12 @@
+{
+    "AltAzar_Fantasy_Ex": {
+        "_gdeSchema": "SkillExtended",
+        "AlwaysParticle": false,
+        "IsOnesInit": false,
+        "Name": "Fantasy",
+        "Des": "Restore 1 mana upon playing this skill.",
+        "ClassName": "AltAzar.AltAzar_Fantasy_Ex",
+        "Particle": "",
+        "IsIcon": "AltAzar_Fantasy_Ex\\AltAzar_Fantasy_Ex_Icon.png"
+    }
+}

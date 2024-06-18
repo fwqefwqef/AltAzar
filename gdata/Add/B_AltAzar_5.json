@@ -9,9 +9,9 @@
         "UseSkillDebuff": false,
         "Caution": false,
         "Name": "Shining Aura",
-        "Description": "",
+        "Description": "Heal 10% of damage dealt.",
         "MaxStack": 1,
-        "Icon": "B_AltAzar_5\\B_AltAzar_5_Icon.png",
+        "Icon": "Image/Buff/Skill_Icon_Pack/1_5icon/1_5 (14)",
         "LifeTime": 2
     }
 }

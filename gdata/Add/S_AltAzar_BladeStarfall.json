@@ -1,0 +1,35 @@
+{
+    "S_AltAzar_BladeStarfall": {
+        "_gdeSchema": "Skill",
+        "Category": "null",
+        "Particle": "Particle/Azar_4",
+        "Rare": true,
+        "Target": "enemy",
+        "NODOD": false,
+        "NotCount": true,
+        "NotChuck": false,
+        "HealSkill": false,
+        "Disposable": false,
+        "NoDrop": false,
+        "IgnoreTaunt": false,
+        "Except": false,
+        "NoBasicSkill": true,
+        "Basic": false,
+        "Track": false,
+        "Fatal": false,
+        "EnemyPreview": false,
+        "UnknownTarget": false,
+        "Name": "Blade Starfall",
+        "UseAp": 3,
+        "Description": "Consume all Illusion Swords in hand and cast Illusion Sword on all enemies per sword consumed.",
+        "User": "AltAzar",
+        "Counting": 2,
+        "Image_0": "S_AltAzar_BladeStarfall\\S_AltAzar_BladeStarfall_Image_0.png",
+        "Image_1": "S_AltAzar_BladeStarfall\\S_AltAzar_BladeStarfall_Image_1.png",
+        "Image_2": "S_AltAzar_BladeStarfall\\S_AltAzar_BladeStarfall_Image_2.png",
+        "SkillExtended": [
+            "AltAzar.S_AltAzar_BladeStarfall"
+        ],
+        "Effect_Target": "SE_T_S_AltAzar_BladeStarfall"
+    }
+}

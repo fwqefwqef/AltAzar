@@ -6,7 +6,7 @@
         "Target": "self",
         "IgnoreTaunt": false,
         "Name": "Shining Aura",
-        "Description": "",
+        "Description": "Illusion Swords adjacent to this skill become 0 cost.",
         "UseAp": 1,
         "User": "AltAzar",
         "NotCount": true,
