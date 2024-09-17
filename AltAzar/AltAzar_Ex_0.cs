@@ -33,7 +33,11 @@ namespace AltAzar
 
 		public override void SkillUseHand(BattleChar Target)
 		{
-			List<Skill> hand = BattleSystem.instance.AllyTeam.Skills;
+            if (this.MySkill.MySkill.KeyID == "S_AltAzar_AscendingSlice")
+            {
+                AltAzar_Ex_0.SwordAdd(this.MasterChar, 0);
+                return;
+            }
             //Debug.Log("Illusion Sword buff location " + num);
             AltAzar_Ex_0.SwordAdd(this.MasterChar, -1);
 		}
@@ -78,7 +82,7 @@ namespace AltAzar
             else
             {
                 //bc.MyTeam.Add(sword, true);
-                bc.MyTeam.Add(skill, true, num);
+                bc.MyTeam.Add(sword, true, num);
 				//BattleSystem.DelayInput(Wait());
 			}
 			Debug.Log("Added Illusion Sword to hand");

@@ -10,6 +10,7 @@ namespace AltAzar
 {
 	public class S_AltAzar_IllusionFlash : Skill_Extended
 	{
+
 		// Token: 0x06000AB5 RID: 2741 RVA: 0x0007C488 File Offset: 0x0007A688
 		public override string DescExtended(string desc)
 		{

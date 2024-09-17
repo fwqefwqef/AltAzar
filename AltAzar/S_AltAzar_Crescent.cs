@@ -10,7 +10,8 @@ namespace AltAzar
 {
 	public class S_AltAzar_Crescent : Skill_Extended
 	{
-		public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
+
+        public override void SkillUseSingle(Skill SkillD, List<BattleChar> Targets)
 		{
 
 			Skill skill = Skill.TempSkill("S_AltAzar_Crescent_0", this.BChar, this.BChar.MyTeam);
@@ -30,13 +31,28 @@ namespace AltAzar
 			int cast = 0;
 			for (int i = 0; i < num; i++)
 			{
+				if (hand[i].ExtendedFind_DataName("AltAzar_Ex_0") != null)
+				{
+					BattleSystem.DelayInput(this.Attack(skill, Targets[0]));
+				}
+
+				if (hand[i].ExtendedFind_DataName("Azar_Ex_0") != null)
+				{
+					BattleSystem.DelayInput(this.Attack(skill, Targets[0]));
+				}
+
 				if (hand[i].MySkill.KeyID == GDEItemKeys.Skill_S_Azar_P_0)
 				{
 					BattleSystem.DelayInput(this.Attack(skill, Targets[0]));
 					//hand[i].Delete(false);
 					//cast++;
-					//i--;
+					//i--; //
 				}
+			}
+
+			if (SkillD.ExtendedFind_DataName("AltAzar_Ex_0") != null || SkillD.ExtendedFind_DataName("Azar_Ex_0") != null)
+			{
+				BattleSystem.DelayInput(this.Attack(skill, Targets[0]));
 			}
 
 			//for (int i = 0; i < cast; i++) // return swords to bottom of hand...
